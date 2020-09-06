@@ -1,0 +1,16 @@
+{
+  "name": "@arturdoruch/date",
+  "version": "1.0.0",
+  "description": "JavaScript date helpers.",
+  "keywords": ["date parser", "date utils", "date format", "date modify"],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arturdoruch/js-date"
+  },
+  "author": {
+    "name": "Artur Doruch",
+    "email": "arturdoruch@interia.pl"
+  }
+}
