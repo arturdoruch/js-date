@@ -16,22 +16,18 @@ yarn add @arturdoruch/date
 import '@arturdoruch/date/lib/date-polyfills';
 ```
 
-Adds the following methods to the native Date object:
+Adds useful methods to the native Date object.
 
- * createFromTimestamp - Creates Date from a timestamp.
- * format - Formats Date into a string.
- * modify - Modifies date time.
- * getTimestamp - Gets date Unix timestamp.
+ * `createFromTimestamp` - Creates Date from a timestamp.
+ * `format` - Formats Date into a string.
+ * `modify` - Modifies date time.
+ * `getTimestamp` - Gets date Unix timestamp.
  
  
 ### Date parser
 
-Functions:
- * parse
- * registerMonthNames
- * registerDayNames
- * registerTimeAgoPhrases
- 
+Parses date string into Date object.
+
 #### Usage 
  
 ```js
@@ -45,6 +41,16 @@ dateParser.parse('day ago');
 dateParser.parse('2 months ago');
 ``` 
  
+#### Functions
+
+ * `registerMonthNames` - Registers month names in a specified language, in order to correctly parse date
+  with month name in language other, then english or polish.
+ * `registerDayNames` - Registers day names (yesterday, today, tomorrow) in a specified language, in order to correctly parse date
+  with day name in language other, then english or polish.
+ * `registerTimeAgoPhrases` - Registers phrases in a specified language, in order to correctly parse date
+  with "time ago" phrase, like: "20 hours ago", "month ago" in language other, then english or polish.
+  
+See functions description for more info. 
   
 ### Date utils
 
@@ -52,7 +58,7 @@ dateParser.parse('2 months ago');
 import dateUtils from '@arturdoruch/date/lib/date-utils';
 ```
 
-Functions:
+#### Functions
 
  * getMonthNumber
  * getMonthName
