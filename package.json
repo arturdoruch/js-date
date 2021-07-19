@@ -1,6 +1,6 @@
 {
   "name": "@arturdoruch/date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript date helpers.",
   "keywords": ["date parser", "date utils", "date format", "date modify"],
   "license": "MIT",
